@@ -1,0 +1,1 @@
+if a host didn't answer our ping, it's not necessarily offline, the reason could be that it will not accept this type of traffic.
