@@ -1,6 +1,6 @@
 # MyGuideToEthicalHacking
 
-My personal guide to remeber stuff.
+My personal guide to remember stuff.
 
 Feel free to improve it :)
 
