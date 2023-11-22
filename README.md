@@ -1,5 +1,9 @@
 # MyGuideToEthicalHacking
 
+My personal guide to remeber stuff.
+
+Feel free to improve it :)
+
 ## Sources
 
 - [The Cyber Mentor](https://www.youtube.com/@TCMSecurityAcademy)
