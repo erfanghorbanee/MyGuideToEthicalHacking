@@ -3,6 +3,10 @@ The whole IP address concept is in layer 3 and about routing.
 
 we have ipv4 and ipv6. ipv4 gives us a limited amount of ips that we can use but it's less than human populations so we come up with ipv6. however, everyone nowadays is still using ipv4. How? using NAT.
 
+## ipv6
+![491482eaa8e67c14783461caf5295d4c.png](../../_resources/491482eaa8e67c14783461caf5295d4c.png)
+![c07168207a5abfd7ddd0dfcae1842dfb.png](../../_resources/c07168207a5abfd7ddd0dfcae1842dfb.png)
+
 ## Private IP
 
 ![93fbf8a105550b9844753ed8717a4420.png](../../_resources/93fbf8a105550b9844753ed8717a4420.png)
