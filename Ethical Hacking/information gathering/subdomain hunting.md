@@ -1,7 +1,11 @@
-## site:
+# subdomain hunting
+
+## site
+
 - crt.sh
 
-## tools:
+## tools
+
 - Sublist3r(you can use -t to add more threads and get the result faster)
 `sublist3r -d tesla.com`
 - Amass(stronger)

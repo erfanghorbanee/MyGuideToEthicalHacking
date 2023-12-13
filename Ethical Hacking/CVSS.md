@@ -1,4 +1,5 @@
-## CVSS
+# CVSS
+
 CVSS stands for Common Vulnerability Scoring System, and it is a framework used to assess and communicate the severity of security vulnerabilities in software. The CVSS provides a way to standardize the measurement of these vulnerabilities, allowing organizations to prioritize and address them effectively.
 
 The CVSS vector is a string that represents the various aspects and characteristics of a security vulnerability. It consists of a set of metrics, each with its own value, and together they define the overall score for the vulnerability. The vector includes the following metrics:

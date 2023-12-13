@@ -1,4 +1,5 @@
-## Description
+# ipsweep
+
 we can ping and find the devices that are connected to our network using this script.
 
 ```bash
@@ -17,6 +18,7 @@ fi
 ```
 
 ## Tips
+
 - using `&` instead of `;` at the end of the ping command make the script faster.
 - we have to run `chmode +x {filename}` on the script file to make it executable first.
 - we can give it to nmap using a for loop to scan every ip included in the result.(an example of automating stuff using bash scripts)

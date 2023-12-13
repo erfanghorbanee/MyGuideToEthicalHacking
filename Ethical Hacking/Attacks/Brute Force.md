@@ -1,3 +1,5 @@
+# Brute Force
+
 ## Generating Password List with Crunch
 
 `crunch 3 3 0123456789ABCDEF -o 3digits.txt`
@@ -35,13 +37,14 @@ The command above will try one password after another in the 3digits.txt file. I
 - http-post-form specifies the HTTP method to use
 - "/login.php:pin=^PASS^:Access denied" has three parts separated by :
 
-1.  /login.php is the page where the PIN code is submitted
-2.  pin=^PASS^ will replace ^PASS^ with values from the password list
-3.  Access denied indicates that invalid passwords will lead to a page that contains the text “Access denied”
+1. /login.php is the page where the PIN code is submitted
+2. pin=^PASS^ will replace ^PASS^ with values from the password list
+3. Access denied indicates that invalid passwords will lead to a page that contains the text “Access denied”
 
 - \-s 8000 indicates the port number on the target
 
 ## Attacking with wfuzz
+
 `wfuzz -c -z file,usernames.txt -z file,passwords.txt --hs "Please enter the correct credentials" -u http://MACHINE_IP/login.php -d "username=FUZZ&password=FUZ2Z"`
 
 In the command above:

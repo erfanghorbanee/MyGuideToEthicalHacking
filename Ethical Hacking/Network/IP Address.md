@@ -1,9 +1,13 @@
+# IP Address
+
 ## Description
+
 The whole IP address concept is in layer 3 and about routing.
 
 we have ipv4 and ipv6. ipv4 gives us a limited amount of ips that we can use but it's less than human populations so we come up with ipv6. however, everyone nowadays is still using ipv4. How? using NAT.
 
 ## ipv6
+
 ![491482eaa8e67c14783461caf5295d4c.png](../../_resources/491482eaa8e67c14783461caf5295d4c.png)
 ![c07168207a5abfd7ddd0dfcae1842dfb.png](../../_resources/c07168207a5abfd7ddd0dfcae1842dfb.png)
 
@@ -23,6 +27,6 @@ Host A requests a web page from an Internet server. Because Host A uses private 
 
 There are three types of address translation:
 
-1.  Static NAT – translates one private IP address to a public one. The public IP address is always the same.
-2.  Dynamic NAT – private IP addresses are mapped to the pool of public IP addresses.
-3.  Port Address Translation (PAT) – one public IP address is used for all internal devices, but a different port is assigned to each private IP address. Also known as NAT Overload.
+1. Static NAT – translates one private IP address to a public one. The public IP address is always the same.
+2. Dynamic NAT – private IP addresses are mapped to the pool of public IP addresses.
+3. Port Address Translation (PAT) – one public IP address is used for all internal devices, but a different port is assigned to each private IP address. Also known as NAT Overload.
