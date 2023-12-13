@@ -1,13 +1,21 @@
 # MyGuideToEthicalHacking
 
-My personal guide to remember stuff.
+This repository serves as my personal knowledge base, continually evolving as I delve deeper into the fascinating realm of ethical hacking.
 
-Feel free to improve it :)
+## Resources
 
-## Sources
+### 1. [The Cyber Mentor](https://www.youtube.com/@TCMSecurityAcademy)
 
-- [The Cyber Mentor](https://www.youtube.com/@TCMSecurityAcademy)
-- [Introduction to TCP/IP by Yonsei University](https://www.coursera.org/learn/tcpip)
-- [PortSwigger](https://portswigger.net/)
-- [InsiderPhD](https://www.youtube.com/c/InsiderPhD)
-- [TryHackMe](https://tryhackme.com/)
+### 2. [Introduction to TCP/IP by Yonsei University](https://www.coursera.org/learn/tcpip)
+
+### 3. [PortSwigger](https://portswigger.net/)
+
+### 4. [InsiderPhD](https://www.youtube.com/c/InsiderPhD)
+
+### 5. [TryHackMe](https://tryhackme.com/)
+
+## Contribution Guidelines
+
+Feel free to explore, contribute, and enhance this guide with your insights. Together, we can build a valuable resource for the community.
+
+Happy hacking!
