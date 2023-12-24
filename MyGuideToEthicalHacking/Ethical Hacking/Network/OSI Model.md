@@ -1,4 +1,4 @@
-# The OSI Model
+# OSI Model
 
 ## layers
 

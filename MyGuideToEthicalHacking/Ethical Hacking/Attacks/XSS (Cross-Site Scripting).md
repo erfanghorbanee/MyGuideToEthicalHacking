@@ -1,3 +1,5 @@
+# XSS (Cross-Site Scripting)
+
 ## Countermeasures
 
 ![de81ce40170cf42621d7f543c568246b.png](../../../_resources/de81ce40170cf42621d7f543c568246b.png)

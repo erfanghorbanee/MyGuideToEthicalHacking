@@ -1,4 +1,4 @@
-# subdomain hunting
+# Subdomain Hunting
 
 ## site
 

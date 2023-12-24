@@ -1,4 +1,4 @@
-# TCP, UDP and 3-Way Handshake
+# TCP, UDP, and 3-Way Handshake
 
 ## TCP vs UDP
 
