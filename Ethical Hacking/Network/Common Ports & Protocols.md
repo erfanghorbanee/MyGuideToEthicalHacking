@@ -1,6 +1,6 @@
 # Common Ports & Protocols
 
-![ecfa565ac79f085688f3d990339d3352.png](../../../_resources/ecfa565ac79f085688f3d990339d3352.png)
+![ecfa565ac79f085688f3d990339d3352.png](../../_resources/ecfa565ac79f085688f3d990339d3352.png)
 
 ## SMTP, POP3, IMAP
 

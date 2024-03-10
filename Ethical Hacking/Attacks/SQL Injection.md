@@ -15,7 +15,7 @@ $result = sqlsrv_query($conn, $query);
 
 Without adequate security measures, an attacker could manipulate the "colour" parameter to execute malicious SQL queries. For instance, instead of searching for a benign colour, they might input `' OR 1=1 --` as the input parameter, which would transform the query into:
 
-![44e582e3f4acbede1d1e86f189c23630.png](../../../_resources/44e582e3f4acbede1d1e86f189c23630.png)
+![44e582e3f4acbede1d1e86f189c23630.png](../../_resources/44e582e3f4acbede1d1e86f189c23630.png)
 
 ## Caution Around OR 1=1
 

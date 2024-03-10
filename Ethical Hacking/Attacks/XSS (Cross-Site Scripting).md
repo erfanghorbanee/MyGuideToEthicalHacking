@@ -2,34 +2,34 @@
 
 ## Stored XSS
 
-![de121f1e20d0be59a83001b2b660a010.png](../../../_resources/de121f1e20d0be59a83001b2b660a010.png)
-![879002ecf47223f3661ad79b35694869.png](../../../_resources/879002ecf47223f3661ad79b35694869.png)
+![de121f1e20d0be59a83001b2b660a010.png](../../_resources/de121f1e20d0be59a83001b2b660a010.png)
+![879002ecf47223f3661ad79b35694869.png](../../_resources/879002ecf47223f3661ad79b35694869.png)
 
 ## Blind XSS
 
-![cacb62839cdf27bb1c22a1d6d5591d86.png](../../../_resources/cacb62839cdf27bb1c22a1d6d5591d86.png)
+![cacb62839cdf27bb1c22a1d6d5591d86.png](../../_resources/cacb62839cdf27bb1c22a1d6d5591d86.png)
 
 ## DOM XSS
 
-![5988fa858f3a55cba91fa1e28c1eff30.png](../../../_resources/5988fa858f3a55cba91fa1e28c1eff30.png)
-![8fe84f996fe9cffc8b8c29ded531b57d.png](../../../_resources/8fe84f996fe9cffc8b8c29ded531b57d.png)
+![5988fa858f3a55cba91fa1e28c1eff30.png](../../_resources/5988fa858f3a55cba91fa1e28c1eff30.png)
+![8fe84f996fe9cffc8b8c29ded531b57d.png](../../_resources/8fe84f996fe9cffc8b8c29ded531b57d.png)
 
 ## Reflected XSS
 
-![7e3801221242f238189434c391180842.png](../../../_resources/7e3801221242f238189434c391180842.png)
-![58fee3636d49604bb939afcc136cb39e.png](../../../_resources/58fee3636d49604bb939afcc136cb39e.png)
+![7e3801221242f238189434c391180842.png](../../_resources/7e3801221242f238189434c391180842.png)
+![58fee3636d49604bb939afcc136cb39e.png](../../_resources/58fee3636d49604bb939afcc136cb39e.png)
 
 ## Self XSS
 
-![05c6bae344b51dac2853aa2d9d7eb1ac.png](../../../_resources/05c6bae344b51dac2853aa2d9d7eb1ac.png)
+![05c6bae344b51dac2853aa2d9d7eb1ac.png](../../_resources/05c6bae344b51dac2853aa2d9d7eb1ac.png)
 
 ## Impacts
 
-![8f19f7a37f33c291337666183f591398.png](../../../_resources/8f19f7a37f33c291337666183f591398.png)
+![8f19f7a37f33c291337666183f591398.png](../../_resources/8f19f7a37f33c291337666183f591398.png)
 
 ## Countermeasures
 
-![de81ce40170cf42621d7f543c568246b.png](../../../_resources/de81ce40170cf42621d7f543c568246b.png)
+![de81ce40170cf42621d7f543c568246b.png](../../_resources/de81ce40170cf42621d7f543c568246b.png)
 
 ## X-XSS-Protection HTTP header
 

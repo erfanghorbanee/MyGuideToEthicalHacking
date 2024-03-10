@@ -8,12 +8,12 @@ we have ipv4 and ipv6. ipv4 gives us a limited amount of ips that we can use but
 
 ## ipv6
 
-![491482eaa8e67c14783461caf5295d4c.png](../../../_resources/491482eaa8e67c14783461caf5295d4c.png)
-![c07168207a5abfd7ddd0dfcae1842dfb.png](../../../_resources/c07168207a5abfd7ddd0dfcae1842dfb.png)
+![491482eaa8e67c14783461caf5295d4c.png](../../_resources/491482eaa8e67c14783461caf5295d4c.png)
+![c07168207a5abfd7ddd0dfcae1842dfb.png](../../_resources/c07168207a5abfd7ddd0dfcae1842dfb.png)
 
 ## Private IP
 
-![93fbf8a105550b9844753ed8717a4420.png](../../../_resources/93fbf8a105550b9844753ed8717a4420.png)
+![93fbf8a105550b9844753ed8717a4420.png](../../_resources/93fbf8a105550b9844753ed8717a4420.png)
 
 ## NAT
 
@@ -21,7 +21,7 @@ NAT (Network Address Translation) changes the source and destination IP addresse
 
 An example will help you understand the concept:
 
-![2f587588a9a03573793fe207ec2fc910.png](../../../_resources/2f587588a9a03573793fe207ec2fc910.png)
+![2f587588a9a03573793fe207ec2fc910.png](../../_resources/2f587588a9a03573793fe207ec2fc910.png)
 
 Host A requests a web page from an Internet server. Because Host A uses private IP addressing, the source address of the request has to be changed by the router because private IP addresses are not routable on the Internet. Router R1 receives the request, changes the source IP address to its public IP address, and sends the packet to server S1. Server S1 receives the packet and replies to router R1. Router R1 receives the packet, changes the destination IP addresses to the private IP address of Host A, and sends the packet to Host A.
 

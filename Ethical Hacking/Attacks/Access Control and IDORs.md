@@ -20,28 +20,28 @@ Access control refers to the process of managing and regulating access to resour
 
 If you ask the server for a file, it won't check if you are it's owner and send it to you anyway.
 
-![6fd56d9883fd025bb1cbcf32d365b759.png](../../../_resources/6fd56d9883fd025bb1cbcf32d365b759.png)
-![a785bab372ba3443f30b62401713f194.png](../../../_resources/a785bab372ba3443f30b62401713f194.png)
+![6fd56d9883fd025bb1cbcf32d365b759.png](../../_resources/6fd56d9883fd025bb1cbcf32d365b759.png)
+![a785bab372ba3443f30b62401713f194.png](../../_resources/a785bab372ba3443f30b62401713f194.png)
 
 We need to look for ids. they are everywhere(hidden form fields, apis, urls)
 
-![06621abf66c36cc9c13cb27eddfcd56a.png](../../../_resources/06621abf66c36cc9c13cb27eddfcd56a.png)
+![06621abf66c36cc9c13cb27eddfcd56a.png](../../_resources/06621abf66c36cc9c13cb27eddfcd56a.png)
 
 one of the ways to avoid this problem is to use uuid instead of id. however we still don't have proper access control and this method just make ids less pridictible.
 
 ## when we have a problem?
 
-![e21d469a08a03daa80f75cfa2cba2170.png](../../../_resources/e21d469a08a03daa80f75cfa2cba2170.png)
+![e21d469a08a03daa80f75cfa2cba2170.png](../../_resources/e21d469a08a03daa80f75cfa2cba2170.png)
 
 ## finding issues
 
 play with cookies
 
-![7e8a71c9c365ed9c9677001d866a141a.png](../../../_resources/7e8a71c9c365ed9c9677001d866a141a.png)
+![7e8a71c9c365ed9c9677001d866a141a.png](../../_resources/7e8a71c9c365ed9c9677001d866a141a.png)
 
-![7008622cbd678e565658fbab95102e8a.png](../../../_resources/7008622cbd678e565658fbab95102e8a.png)
+![7008622cbd678e565658fbab95102e8a.png](../../_resources/7008622cbd678e565658fbab95102e8a.png)
 
-![b5384e4c6cd2e52e21e6c21074661305.png](../../../_resources/b5384e4c6cd2e52e21e6c21074661305.png)
+![b5384e4c6cd2e52e21e6c21074661305.png](../../_resources/b5384e4c6cd2e52e21e6c21074661305.png)
 
 ## Access Control vs IDORs
 

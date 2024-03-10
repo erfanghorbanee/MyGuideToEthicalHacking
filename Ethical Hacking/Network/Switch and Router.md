@@ -4,7 +4,7 @@ Switches are dedicated devices within a network that are designed to aggregate m
 
 Switches are much more efficient than their lesser counterpart (hubs/repeaters). Switches keep track of what device is connected to which port. This way, when they receive a packet, instead of repeating that packet to every port like a hub would do, it just sends it to the intended target, thus reducing network traffic.
 
-![019306159b39f74737483a00c9cd8bd8.png](../../../_resources/019306159b39f74737483a00c9cd8bd8.png)
+![019306159b39f74737483a00c9cd8bd8.png](../../_resources/019306159b39f74737483a00c9cd8bd8.png)
 
 Both Switches and Routers can be connected to one another. The ability to do this increases the redundancy (the reliability) of a network by adding multiple paths for data to take. If one path goes down, another can be used. Whilst this may reduce the overall performance of a network because packets have to take longer to travel, there is no downtime -- a small price to pay considering the alternative.
 
@@ -16,4 +16,4 @@ Routing is the label given to the process of data travelling across networks. Ro
 
 Routing is useful when devices are connected by many paths, such as in the example diagram below.
 
-![6696a0b4b1ffa7667fe49b04cf79dddd.png](../../../_resources/6696a0b4b1ffa7667fe49b04cf79dddd.png)
+![6696a0b4b1ffa7667fe49b04cf79dddd.png](../../_resources/6696a0b4b1ffa7667fe49b04cf79dddd.png)
