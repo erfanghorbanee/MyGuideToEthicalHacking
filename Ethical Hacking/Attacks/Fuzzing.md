@@ -1,4 +1,4 @@
-## Fuzzing
+# Fuzzing
 
 Fuzzing, also known as fuzz testing or simply "fuzzing," is an automated testing technique that involves providing unexpected, random, or malformed data as input to a software application to uncover vulnerabilities. The goal is to find security flaws, such as buffer overflows, memory leaks, or other unexpected behaviors, by bombarding the target with a large amount of invalid or unexpected data.
 
