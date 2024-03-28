@@ -1,29 +1,31 @@
 name: Convert Markdown to PDF
 
 on:
-  push:
-    branches:
-      - main
-    paths:
-      - 'Ethical Hacking/**'
-      - '_resources/**'
+  push
 
 jobs:
-  markdown-to-pdf:
-    name: Convert Markdown to PDF
+  convert_via_pandoc:
     runs-on: ubuntu-latest
+
     steps:
       - name: Checkout repository
         uses: actions/checkout@v3
 
+      - name: Create list of Markdown files
+        id: markdown_file_list
+        run: |
+          files=$(find 'Ethical Hacking' -name '*.md' -exec printf "'{}' " \;)
+          echo "markdown_files=$files" >> $GITHUB_ENV
+
+      - name: Install Pandoc and dependencies
+        run: |
+          sudo apt-get update
+          sudo apt-get install -y pandoc texlive-latex-base texlive-fonts-recommended texlive-extra-utils texlive-latex-extra
+
       - name: Convert Markdown to PDF
-        uses: docker://pandoc/latex:2.9
-        with:
-          args: >
-            --resource-path=.:./Ethical\ Hacking:./_resources
-            $(find Ethical\ Hacking -name '*.md' -exec printf "'%s' " \;)
-            -o EthicalHacking.pdf
-      
+        run: |
+          pandoc ${{ env.markdown_files }} -o EthicalHacking.pdf --resource-path=.:./Ethical\ Hacking:./_resources --pdf-engine=xelatex
+
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v3
         with:
