@@ -21,9 +21,9 @@ jobs:
         with:
           args: >
             --resource-path=.:./Ethical\ Hacking:./_resources
-            $(find Ethical\ Hacking -name '*.md' -exec printf "'{}' " \;)
+            $(find Ethical\ Hacking -name '*.md' -exec printf "'%s' " \;)
             -o EthicalHacking.pdf
-
+      
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v3
         with:
