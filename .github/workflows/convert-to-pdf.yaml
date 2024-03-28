@@ -16,12 +16,13 @@ jobs:
       - name: Checkout repository
         uses: actions/checkout@v3
 
-      - name: Setup Pandoc
-        run: sudo apt-get install pandoc texlive texlive-xetex texlive-latex-extra
-
       - name: Convert Markdown to PDF
-        run: |
-          pandoc $(find 'Ethical Hacking' -name '*.md' -exec printf "'{}' " \;) -o EthicalHacking.pdf --resource-path='.':'_resources' --pdf-engine=xelatex
+        uses: docker://pandoc/latex:2.9
+        with:
+          args: >
+            --resource-path=.:./Ethical\ Hacking:./_resources
+            $(find Ethical\ Hacking -name '*.md' -exec printf "'{}' " \;)
+            -o EthicalHacking.pdf
 
       - name: Upload PDF as artifact
         uses: actions/upload-artifact@v3
