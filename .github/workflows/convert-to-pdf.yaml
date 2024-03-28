@@ -1,32 +1,30 @@
-# .github/workflows/convert-to-pdf.yml
+name: Convert Markdown to PDF
 
-name: Markdown to PDF
-# This workflow is triggered on pushes to the repository.
 on:
   push:
     branches:
       - main
-    # Paths can be used to only trigger actions when you have edited certain files, such as a file within the /docs directory
     paths:
       - 'Ethical Hacking/**'
-      - '_resources/**'    
+      - '_resources/**'
 
 jobs:
-  converttopdf:
-    name: Markdown to PDF
+  markdown-to-pdf:
+    name: Convert Markdown to PDF
     runs-on: ubuntu-latest
     steps:
-      - uses: actions/checkout@v3
-      - uses: BaileyJM02/markdown-to-pdf@v1.2.0
+      - name: Checkout repository
+        uses: actions/checkout@v3
+
+      - name: Setup Pandoc and LaTeX
+        run: sudo apt-get install pandoc texlive texlive-xetex texlive-latex-extra
+
+      - name: Convert Markdown to PDF
+        run: |
+          pandoc $(find 'Ethical Hacking' -name '*.md') -o EthicalHacking.pdf --resource-path='.':'Ethical Hacking':'_resources' --pdf-engine=xelatex
+
+      - name: Upload PDF as artifact
+        uses: actions/upload-artifact@v3
         with:
-          input_path: 'Ethical Hacking'
-          output_dir: pdfs
-          images_dir: _resources
-          # for example <img src="./images/file-name.png">
-          image_import: ./_resources
-          # Default is true, can set to false to only get PDF files
-          build_html: false
-      - uses: actions/upload-artifact@v3
-        with:
-          name: Ethical Hacking
-          path: pdfs
+          name: EthicalHacking.pdf
+          path: EthicalHacking.pdf
