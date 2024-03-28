@@ -2,7 +2,9 @@
 
 ## Generating Password List with Crunch
 
-`crunch 3 3 0123456789ABCDEF -o 3digits.txt`
+```shell
+crunch 3 3 0123456789ABCDEF -o 3digits.txt
+```
 
 The command above specifies the following:
 
