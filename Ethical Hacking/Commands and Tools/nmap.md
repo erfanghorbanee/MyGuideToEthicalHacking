@@ -21,3 +21,9 @@ That said nothing is a guarantee. host based XDR is incredibly quick at picking 
 Using netmon and converting to pcap has been a winner for me.
 
 [source](https://www.linkedin.com/feed/update/urn:li:activity:7137038515288100864?commentUrn=urn%3Ali%3Acomment%3A%28activity%3A7137038515288100864%2C7137145021396320257%29&dashCommentUrn=urn%3Ali%3Afsd_comment%3A%287137145021396320257%2Curn%3Ali%3Aactivity%3A7137038515288100864%29)
+
+## Tech Stack Fingerprinting
+
+run Nmap on a machine with the -sV flag on to enable version detection on the port scan.
+
+`nmap scanme.nmap.org -sV`
