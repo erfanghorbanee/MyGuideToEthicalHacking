@@ -4,6 +4,8 @@ This repository serves as my personal knowledge base, continually evolving as I 
 
 ## Resources
 
+These are the sources that I used and shared content from.
+
 ### 1. [The Cyber Mentor](https://www.youtube.com/@TCMSecurityAcademy)
 
 ### 2. [Introduction to TCP/IP by Yonsei University](https://www.coursera.org/learn/tcpip)
@@ -13,6 +15,8 @@ This repository serves as my personal knowledge base, continually evolving as I 
 ### 4. [InsiderPhD](https://www.youtube.com/c/InsiderPhD)
 
 ### 5. [TryHackMe](https://tryhackme.com/)
+
+### 6. [Bug Bounty Bootcamp: The Guide to Finding and Reporting Web Vulnerabilities by Vickie Li ](https://www.oreilly.com/library/view/bug-bounty-bootcamp/9781098129088/)
 
 ## Contribution Guidelines
 
