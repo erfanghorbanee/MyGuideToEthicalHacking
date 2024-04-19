@@ -4,30 +4,35 @@ Access control refers to the process of managing and regulating access to resour
 
 ## Types of access control
 
-- **Role-Based Access Control (RBAC):**
+### Role-Based Access Control (RBAC)
+
 **Definition:** In RBAC, access rights are assigned based on roles, and individuals are assigned to these roles. Each role has specific permissions associated with it, and users inherit these permissions by being a member of a particular role.
 **Example:** In an organization, there might be roles like "Manager," "Employee," and "Administrator." The Manager role could have access to certain files and systems, while the Employee role may have more restricted access. An individual's access is determined by their role within the organization.
 
-- **Discretionary Access Control (DAC):**
+### Discretionary Access Control (DAC)
+
 **Definition:** DAC allows individual users to have discretion over their resources. Owners of resources can determine who has access to those resources and what type of access is granted.
 **Example:** In a DAC system, a file owner can decide which specific users or groups have permission to read, write, or execute the file. The owner has discretionary control over the access to that particular resource and can modify these permissions.
 
-- **Attribute-Based Access Control (ABAC):**
+### Attribute-Based Access Control (ABAC)
+
 **Definition**: ABAC uses various attributes about the user, the resource, and the environment to make access control decisions. It considers a wide range of attributes, such as user roles, time of day, location, and other contextual information.
 **Example:** ABAC might allow access to a sensitive document only if the user's role is "Manager," the document's sensitivity level is below a certain threshold, and the access request is made during regular business hours. ABAC provides a more fine-grained and context-aware approach to access control.
 
 ## IDORs
 
-If you ask the server for a file, it won't check if you are it's owner and send it to you anyway.
+it's a kind of broken access control tho they're slightly different. for example in an IDOR or broken access control If you ask the server for a file, it won't check if you are it's owner and send it to you anyway.
 
 ![6fd56d9883fd025bb1cbcf32d365b759.png](../../_resources/6fd56d9883fd025bb1cbcf32d365b759.png)
 ![a785bab372ba3443f30b62401713f194.png](../../_resources/a785bab372ba3443f30b62401713f194.png)
 
-We need to look for ids. they are everywhere(hidden form fields, apis, urls)
+We need to look for ids as IDORS use them. they are everywhere (hidden form fields, apis, urls)
+
+![e8dd9fc995b6bc701f1d9a0f48b98ad5.png](../../_resources/e8dd9fc995b6bc701f1d9a0f48b98ad5.png)
+
+one of the ways to avoid IDORS is to use uuid instead of id. however we still don't have proper access control and this method just make ids less predictable.
 
 ![06621abf66c36cc9c13cb27eddfcd56a.png](../../_resources/06621abf66c36cc9c13cb27eddfcd56a.png)
-
-one of the ways to avoid this problem is to use uuid instead of id. however we still don't have proper access control and this method just make ids less pridictible.
 
 ## when we have a problem?
 
