@@ -9,10 +9,19 @@
 
 ![cacb62839cdf27bb1c22a1d6d5591d86.png](../../_resources/cacb62839cdf27bb1c22a1d6d5591d86.png)
 
+you can use this tool: [XSS Hunter Express](https://github.com/mandatoryprogrammer/xsshunter-express)
+
 ## DOM XSS
 
 ![5988fa858f3a55cba91fa1e28c1eff30.png](../../_resources/5988fa858f3a55cba91fa1e28c1eff30.png)
 ![8fe84f996fe9cffc8b8c29ded531b57d.png](../../_resources/8fe84f996fe9cffc8b8c29ded531b57d.png)
+
+DOM-based XSS targets a web page’s DOM directly: it attacks the client’s local copy of the web page instead of going through the server.
+
+Attackers are able to attack the DOM when a page takes user-supplied data and dynamically alters the DOM based on that input. JavaScript libraries like jQuery are prone to DOM-based XSS since they dynamically alter DOM elements.
+
+Unlike reflected XSS, a DOM-based XSS script doesn’t
+require server involvement, because it executes when user input modifies the source code of the page in the browser directly. The XSS script is never sent to the server, so the HTTP response from the server won’t change.
 
 ## Reflected XSS
 
@@ -30,6 +39,17 @@
 ## Countermeasures
 
 ![de81ce40170cf42621d7f543c568246b.png](../../_resources/de81ce40170cf42621d7f543c568246b.png)
+
+To prevent XSS, an application should implement two controls: **input validation** and **output escaping**.
+
+Escaping means encoding special characters so that
+they are interpreted literally instead of as a special character by the programs.
+
+For example, the left and right angle brackets can be encoded into HTML characters &lt and &gt.
+
+To prevent **DOM XSS**, applications should avoid code that rewrites the HTML document based on user input, and the application should implement client side input validation before it is inserted into the DOM.
+
+https://cheatsheetseries.owasp.org/cheatsheets/Cross_Site_Scripting_Prevention_Cheat_Sheet.html
 
 ## X-XSS-Protection HTTP header
 
@@ -69,6 +89,9 @@ X-XSS-Protection: 0 would disable the XSS filter.
 
 It's important to note that while the X-XSS-Protection header provides an additional layer of defense, developers should not solely rely on it for preventing XSS attacks. Secure coding practices, input validation, and other security measures are essential components of a comprehensive security strategy.
 
+## HttpOnly flag
+
+If the session cookie has the **HttpOnly** flag set, JavaScript will not be able to read the **cookie**.
 
 ## XSS Hunter Express
 
