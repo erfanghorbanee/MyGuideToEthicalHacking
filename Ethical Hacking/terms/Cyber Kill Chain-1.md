@@ -15,3 +15,13 @@ The Cyber Kill Chain is a framework developed by Lockheed Martin to identify and
 6. **Command and Control (C2)**: The attacker establishes a channel of communication with the compromised system to control it remotely.
 
 7. **Actions on Objectives**: The attacker achieves their goals, which could include data theft, system disruption, or espionage.
+
+## Unified Kill Chain
+
+The Unified Kill Chain published in 2017, aims to complement (not compete) with other cybersecurity kill chain frameworks such as Lockheed Martin’s and MITRE’s ATT&CK.
+
+The UKC states that there are 18 phases to an attack: Everything from reconnaissance to data exfiltration and understanding an attacker's motive.
+
+Some large benefits of the UKC over traditional cybersecurity kill chain frameworks include the fact that it is modern and extremely detailed (reminder: it has 18 phases officially, whereas other frameworks may have a small handful)
+
+![36ebf866bbfb40cb49ea8619f30a1e6b.png](../../_resources/36ebf866bbfb40cb49ea8619f30a1e6b.png)
