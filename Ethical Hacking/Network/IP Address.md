@@ -1,5 +1,14 @@
 # IP Address
 
+There are two main types of IP Adresses:
+
+1. Public IP Adress
+2. Private IP Adress
+
+A public IP address is a globally unique address assigned to a device, allowing it to communicate over the internet, whereas a private IP address is used within a local network, enabling devices to communicate with each other internally without direct exposure to the broader internet.
+
+**Note:** Private IP addresses are not routable on the internet and must use Network Address Translation (NAT) to connect to public networks.
+
 ## Description
 
 The whole IP address concept is in layer 3 and about routing.
