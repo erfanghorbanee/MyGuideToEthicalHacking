@@ -1,0 +1,3 @@
+# Hardware FUD
+
+Hardware FUD (Fear, Uncertainty, and Doubt) refers to tactics used by companies, marketers, or individuals to influence public perception or decision-making regarding hardware products through the dissemination of negative, misleading, or exaggerated information. This can involve spreading rumors about potential security vulnerabilities, compatibility issues, performance deficits, or obsolescence of competing hardware products without solid evidence. The goal is to create anxiety and skepticism among consumers, encouraging them to avoid certain products and instead opt for those from the company spreading the FUD, thereby gaining a competitive advantage.
