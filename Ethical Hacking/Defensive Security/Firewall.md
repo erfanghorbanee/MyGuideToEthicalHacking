@@ -7,3 +7,9 @@ Firewalls come in many forms, including hardware, software, or a combination. Th
 - Proxy service: This firewall protects the network by filtering messages at the application layer, providing deep packet inspection and more granular control over traffic content. The firewall can block access to certain websites or block the transmission of specific types of files.
 - Web application firewall (WAF): This firewall is designed to protect web applications. WAFs block common web attacks such as SQL injection, cross-site scripting, and denial-of-service attacks.
 - Next-generation firewall: This firewall combines the functionalities of the stateless, stateful, and proxy firewalls with features such as intrusion detection and prevention and content filtering.
+
+## open-source firewalls
+
+- pfSense: A widely used open-source firewall/router software that offers features like VPN, intrusion detection, and more.
+- OPNsense: A fork of pfSense with a focus on more modern features and a different user interface.
+- Smoothwall: Another open-source firewall solution with a focus on ease of use and web filtering.
