@@ -10,4 +10,6 @@ The NIST Cybersecurity Framework (CSF) is a set of guidelines and best practices
 
 The CSF is flexible and can be tailored to various types and sizes of organizations, making it a widely adopted tool for improving cybersecurity practices.
 
+The NIST Cybersecurity Framework is sometimes referred to as IPDRR (Identify, Protect, Detect, Respond, Recover).
+
 **Note:** For its implementation, NIST relies on COBIT, ISA (or IEC 62443), ISO 27000, and NIST SP 800-53.

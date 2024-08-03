@@ -11,3 +11,7 @@ The ISF develops frameworks and resources to help organizations manage their cyb
 5. **Incident Management**: Developing and maintaining processes for detecting, responding to, and recovering from security incidents.
 
 The ISF Standard provides a structured approach that organizations can use to enhance their cybersecurity posture, manage risks, and protect against threats. It's often used in conjunction with other frameworks like ISO/IEC 27001, NIST, and CIS controls to create a robust security strategy.
+
+## IRAM
+
+In the ISF's Information Risk Assessment Methodology (IRAM), the phases include Threat and Vulnerability Assessment, Business Impact Assessment, and Control Selection.
