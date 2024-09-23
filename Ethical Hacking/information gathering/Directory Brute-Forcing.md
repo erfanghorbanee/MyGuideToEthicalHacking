@@ -1,16 +1,30 @@
 # Directory Brute-Forcing
 
-You can use Dirsearch or Gobuster for directory brute-forcing.
-
-example:
+## Dirsearch
 
 ```shell
 ./dirsearch.py -u scanme.nmap.org -e php
 ```
 
+## Gobuster
+
+Gobuster is a tool used to brute-force: URIs (directories and files) in web sites, DNS subdomains (with wildcard support), Virtual Host names on target web servers, Open Amazon S3 buckets, Open Google Cloud buckets and TFTP servers.
+
+Gobuster is useful for pentesters, ethical hackers and forensics experts. It also can be used for security tests.
+
 ```shell
 gobuster dir -u target_url -w wordlist
 ```
+
+<https://www.kali.org/tools/gobuster/>
+
+## Dirbuster
+
+DirBuster is a multi threaded java application designed to brute force directories and files names on web/application servers.
+
+<https://www.kali.org/tools/dirbuster/>
+
+## EyeWitness
 
 Manually visiting all the pages you’ve found through brute-forcing can be time-consuming. Instead, use a screenshot tool like EyeWitness (<https://github.com/FortyNorthSecurity/EyeWitness/>) or Snapper (<https://github.com/dxa4481/Snapper/>) to automatically verify that a page is hosted on each location.
 
