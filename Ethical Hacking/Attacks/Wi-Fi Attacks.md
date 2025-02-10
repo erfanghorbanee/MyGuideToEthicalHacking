@@ -1,6 +1,6 @@
 # Wi-Fi Attacks
 
-This document explains various methods attackers may use to exploit Wi-Fi networks. 
+This document explains various methods attackers may use to exploit Wi-Fi networks.
 
 ## Types of Wi-Fi Attacks
 
