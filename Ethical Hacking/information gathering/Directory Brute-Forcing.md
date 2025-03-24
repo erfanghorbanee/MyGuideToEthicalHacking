@@ -24,6 +24,10 @@ DirBuster is a multi threaded java application designed to brute force directori
 
 <https://www.kali.org/tools/dirbuster/>
 
+## dirb
+
+## ffuf
+
 ## EyeWitness
 
 Manually visiting all the pages you’ve found through brute-forcing can be time-consuming. Instead, use a screenshot tool like EyeWitness (<https://github.com/FortyNorthSecurity/EyeWitness/>) or Snapper (<https://github.com/dxa4481/Snapper/>) to automatically verify that a page is hosted on each location.
