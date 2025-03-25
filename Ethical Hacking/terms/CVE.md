@@ -11,4 +11,3 @@ CVEs take the form: CVE-YEAR-IDNUMBER
 - ExploitDB
 - NVD
 - CVE Mitre
-	
