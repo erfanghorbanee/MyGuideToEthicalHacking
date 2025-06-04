@@ -6,8 +6,6 @@
 
 ![5ee8d1b75cadb2238dddf59102304579.png](../../_resources/5ee8d1b75cadb2238dddf59102304579.png)
 
+## Secret Scanning
 
-
-# Secret Scanning
-
-https://github.com/trufflesecurity/trufflehogxx
+<https://github.com/trufflesecurity/trufflehogxx>
