@@ -27,3 +27,8 @@ Fetch known URLs from AlienVault's Open Threat Exchange, the Wayback Machine, an
 ```shell
 echo "target.com" | waybackurls | grep "/api/"
 ```
+
+## GAP Burp-Extension
+
+Burp Extension to find potential endpoints, parameters, and generate a custom target wordlist
+<https://github.com/xnl-h4ck3r/GAP-Burp-Extension>
