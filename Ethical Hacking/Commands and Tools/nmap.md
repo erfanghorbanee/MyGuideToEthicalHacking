@@ -16,7 +16,27 @@ nmap -sn 192.168.11.0/24
 
 run Nmap on a machine with the -sV flag on to enable version detection on the port scan.
 
-`nmap scanme.nmap.org -sV`
+```shell
+nmap scanme.nmap.org -sV
+```
+
+## Recommended
+
+### Typical CTF
+
+```shell
+nmap -A 10.10.218.107
+```
+
+`-A`→ Aggressive scan
+
+This turns on several advanced options at once:
+
+- OS detection (`-O`)
+- Version detection (`-sV`)
+- Script scanning (`--script=default`)
+- Traceroute
+  - This makes scans noisier and more obvious to intrusion detection systems (IDS).
 
 ## Tips
 
@@ -26,7 +46,9 @@ run Nmap on a machine with the -sV flag on to enable version detection on the po
 
 Put them all together like this for much more subtle scans:
 
+```shell
 nmap -f -T2 --data-length 8 --randomize-hosts -ttl 58 \[targets\]
+```
 
 [source](https://www.linkedin.com/posts/travis-deforge-35d_a-lot-of-courses-still-recommend-using-a-activity-7137038515288100864-7fnh?utm_source=share&utm_medium=member_desktop)
 
